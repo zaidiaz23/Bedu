@@ -16,7 +16,85 @@
 
 .imagen
 {
-    background: #a4f4f4;
+    background: #f6f6f6;
     
 }
 
+
+.header {
+  
+    font-size: 0;
+    line-height: 45px;
+    margin: 40x 20px 0px 20px; 
+
+  }
+
+
+ 
+  
+  .li 
+  {
+   display: inline;
+  }
+  
+
+  .header > *
+  {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+  
+.logo
+{
+    width: 45%;
+}
+
+.navbar
+{
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-family: sans-serif;
+    height: 45px;
+
+}
+
+.actions
+{
+  width: 15%;
+  text-align: left;
+  font-size: 14px;
+ 
+}
+
+.actions >*
+{
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+.item
+  {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+.coloreue
+{
+    color: #67b54b;
+}
+
+.btn1
+{
+    color: #fff;
+    background-color: #67b54b;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 12px 14px 12px;
+
+}
