@@ -1,3 +1,12 @@
+.fixed-header
+{
+ position: fixed;
+ background-color: white;
+top: 0;
+left:0;
+right: 0;
+}
+
 .header 
 {
     font-size: 0;
@@ -68,9 +77,58 @@
 .btn1
 {
     color: #fff;
-    background-color: #67b54b;
+    background-color:#025157;
     border: none;
     border-radius: 5px;
     padding: 14px 12px 14px 12px;
 
+}
+
+.promocion
+{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+ 
+}
+
+.videox
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anunciox
+{
+  flex: 1;
+}
+
+.textito
+{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #025157;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.colorparrafo
+{
+  color: #343434;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.anunciox > form
+{
+  display: flex;
+}
+
+.anunciox > form p
+{
+  color: #025157;
+  margin-right: 18px;
 }
