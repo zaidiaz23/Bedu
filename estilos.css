@@ -1,32 +1,9 @@
-.estilo{
-    color:#46484c;
-    font-size: 10px;
-}
-
-.estilopromo
+.header 
 {
-    color: #8b8b8bcc;
-}
-
-.textoboton
-{
-    color: #fff;
-    background-color: brown;
-}
-
-.imagen
-{
-    background: #f6f6f6;
-    
-}
-
-
-.header {
-  
     font-size: 0;
-    line-height: 45px;
+    height: 45px;
     margin: 40x 20px 0px 20px; 
-
+    font-family: sans-serif;
   }
 
 
@@ -55,27 +32,10 @@
 .navbar
 {
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
-    font-family: sans-serif;
-    height: 45px;
 
 }
-
-.actions
-{
-  width: 15%;
-  text-align: left;
-  font-size: 14px;
- 
-}
-
-.actions >*
-{
-    margin: 10px 10px 10px 10px;
-}
-
-
 
 .item
   {
@@ -84,10 +44,26 @@
     margin-left: 25px;
   }
 
-.coloreue
+
+.actions
 {
-    color: #67b54b;
+  width: 15%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+ 
 }
+
+.actions >*
+{
+    margin: 10px 10px 10px 10px;
+}
+
+.actions a {
+    color: #67b54b;
+  }
+
+
 
 .btn1
 {
