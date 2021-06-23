@@ -15,9 +15,6 @@ right: 0;
     font-family: sans-serif;
   }
 
-
- 
-  
   .li 
   {
    display: inline;
@@ -35,7 +32,7 @@ right: 0;
   
 .logo
 {
-    width: 45%;
+    width: 100%;
 }
 
 .navbar
@@ -132,3 +129,199 @@ right: 0;
   color: #025157;
   margin-right: 18px;
 }
+
+
+.sectionew
+{
+  background-color: #a1d683;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sectionew .eltextonew
+{
+  flex: 2;
+}
+
+.sectionew .eltextonew h2
+{
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+
+.sectionew .eltextonew p
+{
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 15px;
+
+}
+
+.sectionew .eltextonew button
+{
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.figurah
+{
+  margin-top: 32px;
+  margin: 0 0 1rem;
+}
+.sectionew .eltextonew img
+{
+  width: 500px;
+  max-width: 100%;
+}
+
+
+.sectionew .elcarruselnew
+{
+  flex:1;
+}
+
+.elcarruselnew
+{
+  position: relative;
+}
+
+.sectionew .elcarruselnew .card
+{
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.sectionew .elcarruselnew .card .card-media
+{
+  position: relative;
+}
+
+.sectionew .elcarruselnew .card .card-media figure {
+  margin-top: 0;
+  
+  margin: 0 0 1rem;
+}
+
+
+.sectionew .elcarruselnew .card .card-media img
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  
+  vertical-align: middle;
+  border-style: none;
+}
+
+.sectionew .elcarruselnew .card .card-media .company {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionew .elcarruselnew  .card .card-media .company img
+{
+  max-width: 75%;
+}
+
+
+.sectionew .elcarruselnew .card .card-body, .sectionew .elcarruselnew .card .card-footer {
+  padding: 25px;
+}
+
+.sectionew .elcarruselnew .card-body
+{
+  flex: 1 1 auto;
+  min-height: 1px;
+}
+
+.sectionew .elcarruselnew .card .card-body h4
+{
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-family: "Slabo 27px", serif;
+}
+
+.sectionew .elcarruselnew .card .card-body h3
+{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.sectionew .elcarruselnew .card .card-body .results
+{
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+
+.sectionew .elcarruselnew .card .card-body .results img
+{
+  width: 26px;
+  margin-right: 20px;
+}
+
+.sectionew .elcarruselnew .card .card-body .results p
+{
+  margin-top: 0;
+  color: #8b8b8bcc;
+}
+
+
+
+
+.sectionew .elcarruselnew .card .card-footer
+{
+  margin-bottom: 20px;
+  background-color: unset;
+  border-top: unset;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+
+
+.sectionew .elcarruselnew .card .card-footer button
+{
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+}
+
