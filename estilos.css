@@ -1,18 +1,19 @@
 .fixed-header
 {
- position: fixed;
- background-color: white;
+position: fixed;
+background-color: white;
 top: 0;
 left:0;
 right: 0;
+z-index: 1030;
+
 }
 
 .header 
 {
     font-size: 0;
-    height: 45px;
+    height: 70px;
     margin: 40x 20px 0px 20px; 
-    font-family: sans-serif;
   }
 
   .li 
@@ -28,11 +29,17 @@ right: 0;
       vertical-align: middle;
       height: 100%;
       line-height: 45px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;;
   }
-  
+
 .logo
 {
-    width: 100%;
+    width: 15%;
+}
+
+.logo img
+{
+  height: 80%;
 }
 
 .navbar
@@ -57,12 +64,13 @@ right: 0;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
- 
 }
 
 .actions >*
 {
     margin: 10px 10px 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
 
 .actions a {
@@ -78,6 +86,7 @@ right: 0;
     border: none;
     border-radius: 5px;
     padding: 14px 12px 14px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -87,7 +96,8 @@ right: 0;
   width: 70%;
   margin: 100px auto;
   align-items: center;
- 
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .videox
@@ -137,6 +147,14 @@ right: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  padding: 5% 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sectionew >*
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sectionew .eltextonew
@@ -146,7 +164,6 @@ right: 0;
 
 .sectionew .eltextonew h2
 {
-  font-family: "Alegreya", serif;
   color: #025157;
 }
 
@@ -186,11 +203,16 @@ right: 0;
 .sectionew .elcarruselnew
 {
   flex:1;
+  
 }
+
+
 
 .elcarruselnew
 {
   position: relative;
+  z-index: 1;
+ 
 }
 
 .sectionew .elcarruselnew .card
@@ -210,17 +232,21 @@ right: 0;
   word-wrap: break-word;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
+
+  
 }
 
 .sectionew .elcarruselnew .card .card-media
 {
   position: relative;
+ 
+  
 }
 
 .sectionew .elcarruselnew .card .card-media figure {
   margin-top: 0;
-  
   margin: 0 0 1rem;
+  
 }
 
 
@@ -232,9 +258,10 @@ right: 0;
   
   vertical-align: middle;
   border-style: none;
+  
 }
 
-.sectionew .elcarruselnew .card .card-media .company {
+.sectionew .elcarruselnew .card .card-media .loguito {
   position: absolute;
   bottom: -20px;
   right: 20px;
@@ -247,7 +274,7 @@ right: 0;
   align-items: center;
 }
 
-.sectionew .elcarruselnew  .card .card-media .company img
+.sectionew .elcarruselnew  .card .card-media .loguito img
 {
   max-width: 75%;
 }
@@ -270,7 +297,7 @@ right: 0;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 12px;
-    font-family: "Slabo 27px", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sectionew .elcarruselnew .card .card-body h3
@@ -281,20 +308,20 @@ right: 0;
     margin-bottom: 20px;
 }
 
-.sectionew .elcarruselnew .card .card-body .results
+.sectionew .elcarruselnew .card .card-body .secciongris
 {
   display: flex;
   align-items: center;
   color: #828282;
 }
 
-.sectionew .elcarruselnew .card .card-body .results img
+.sectionew .elcarruselnew .card .card-body .secciongris img
 {
   width: 26px;
   margin-right: 20px;
 }
 
-.sectionew .elcarruselnew .card .card-body .results p
+.sectionew .elcarruselnew .card .card-body .secciongris p
 {
   margin-top: 0;
   color: #8b8b8bcc;
@@ -325,3 +352,83 @@ right: 0;
     width: 100%;
 }
 
+.features
+{
+  background-color: #025157;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 660px;
+  grid-template-rows: repeat(2, 1fr);
+
+  padding: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.features .feature-item
+{
+  background-color: #fff;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features .feature-item .feature-content
+{
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+
+.features .feature-item .feature-content >*
+{
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.features .feature-item .feature-content img
+{
+  width: 50px;
+}
+
+.features .feature-item .feature-content h3
+{
+ font-size: 24px;
+ color: #343434;
+ font-weight: 400;
+}
+
+.features .feature-item .feature-content p
+{
+font-size: 16px;
+color: #7e7e7e;
+font-weight: 400px;
+}
+
+.features .feature-item .feature-content a
+{
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.features .feature-item .feature-image
+{
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.features .feature-item .feature-image figure,
+.features .feature-item .feature-image img
+{
+  margin-top: 0;
+  height: 100%;
+}
