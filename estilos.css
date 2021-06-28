@@ -25,11 +25,11 @@ z-index: 1030;
   .header > *
   {
       display: inline-block;
-      font-size: 16px;
+      font-size: 18px;
       vertical-align: middle;
       height: 100%;
       line-height: 45px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;;
+      font-family: 'Alegreya', sans-serif;
   }
 
 .logo
@@ -86,8 +86,7 @@ z-index: 1030;
     border: none;
     border-radius: 5px;
     padding: 14px 12px 14px 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: 'Alegreya', sans-serif;
 }
 
 .promocion
@@ -115,7 +114,7 @@ z-index: 1030;
 
 .textito
 {
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Alegreya', sans-serif;
   color: #025157;
   font-size: 40px;
   line-height: 48px;
@@ -149,12 +148,11 @@ z-index: 1030;
   justify-content: space-around;
 
   padding: 5% 10%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sectionew >*
 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Alegreya', sans-serif;
 }
 
 .sectionew .eltextonew
@@ -431,4 +429,122 @@ font-weight: 400px;
 {
   margin-top: 0;
   height: 100%;
+}  
+
+
+.howdoesitwork
+{
+  text-align: center;
+  background-color: #fffbf7;
+  padding: 5% 10%;
+}
+.howdoesitwork .titulo
+{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+  margin-bottom: 8px;
+}
+
+.howdoesitwork .descripcion
+{
+  max-width: 60%;
+  color: #46484c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.howdoesitwork .descripcion a
+{
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.howdoesitwork button
+{
+  font-size: 14px;
+  font-weight: 600;
+  height: 45px;
+  margin-left: 0;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.howdoesitwork .gridzai
+{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.howdoesitwork .gridzai .laimagenytexto
+{
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.howdoesitwork .gridzai .laimagenytexto .imagenc
+{
+  position: relative;
+  height: 350px;
+}
+
+
+.howdoesitwork .gridzai .laimagenytexto .imagenc .imagencarac
+{
+  width: 100%;
+  height: 100%;
+}
+
+.howdoesitwork .gridzai .laimagenytexto .imagenc .iconocarac
+{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+}
+
+.howdoesitwork .gridzai .laimagenytexto .textoc
+{
+  padding: 25px;
+}
+
+.howdoesitwork .gridzai .laimagenytexto .textoc h3
+{
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Alegreya', sans-serif;
+  color: #025157;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.howdoesitwork .gridzai .laimagenytexto .textoc p
+{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+  height: 85px;
+  margin-bottom: 16px;
+  font-family: 'Alegreya', sans-serif;
+}
+
+.howdoesitwork .gridzai .laimagenytexto .textoc a
+{
+  font-size: 16px;
+  line-height: 1.4;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Alegreya', sans-serif;
 }
