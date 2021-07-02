@@ -1,47 +1,82 @@
-.fixed-header
-{
-position: fixed;
-background-color: white;
-top: 0;
-left:0;
-right: 0;
-z-index: 1030;
+/*bootrstrap*/
 
+.carousel-inner
+{
+  max-height: 100%;
+  height: 450px;
 }
 
-.header 
+
+
+
+body 
 {
-    font-size: 0;
-    height: 70px;
-    margin: 40x 20px 0px 20px; 
-  }
+  background-color: #ffffaf;
+}
+
+h1 {
+  color: #46484c;
+  text-align: center;
+}
+
+p {
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+.fixed-header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left:0;
+  right: 0;
+  z-index: 1030;
+}
+
+main {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.header {
+
+  font-size: 0;
+  height: 70px;
+  margin: 40x 20px 0px 20px; 
+  font-family: 'Alegreya', sans-serif;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+  font-family: 'Alegreya', sans-serif;
+}
 
   .li 
   {
    display: inline;
-  }
-  
-
-  .header > *
-  {
-      display: inline-block;
-      font-size: 18px;
-      vertical-align: middle;
-      height: 100%;
-      line-height: 45px;
-      font-family: 'Alegreya', sans-serif;
-  }
+  } 
 
 .logo
 {
     width: 15%;
 }
 
-.logo img
+.logo > img
 {
-  height: 80%;
+  height: 100%;
 }
 
+/*
 .navbar
 {
     width: 70%;
@@ -49,7 +84,7 @@ z-index: 1030;
     color: #025157;
 
 }
-
+*/
 .item
   {
     display: inline;
@@ -61,33 +96,30 @@ z-index: 1030;
 .actions
 {
   width: 15%;
-  text-align: left;
+  text-align: right;
   font-size: 14px;
-  font-weight: 600;
 }
 
 .actions >*
 {
-    margin: 10px 10px 10px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .actions a {
     color: #67b54b;
   }
 
-
-
-.btn1
+.actions button
 {
-    color: #fff;
-    background-color:#025157;
-    border: none;
-    border-radius: 5px;
-    padding: 14px 12px 14px 12px;
-    font-family: 'Alegreya', sans-serif;
+  color: #fff;
+  background-color:#67b54b;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 12px 14px 12px;
+  font-family: 'Alegreya', sans-serif;
 }
+
 
 .promocion
 {
@@ -95,8 +127,6 @@ z-index: 1030;
   width: 70%;
   margin: 100px auto;
   align-items: center;
-  
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .videox
@@ -107,12 +137,18 @@ z-index: 1030;
   align-items: center;
 }
 
-.anunciox
+.videox img
 {
-  flex: 1;
+ width: 120px;
+ margin-top: 10px;
 }
 
-.textito
+.anunciox
+{
+  margin-left: 20px;
+}
+
+.anunciox h3
 {
   font-family: 'Alegreya', sans-serif;
   color: #025157;
@@ -120,10 +156,10 @@ z-index: 1030;
   line-height: 48px;
 }
 
-.colorparrafo
+.anunciox > p
 {
+  font-size: 16px;
   color: #343434;
-  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -352,14 +388,14 @@ z-index: 1030;
 
 .features
 {
-  background-color: #025157;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 660px;
-  grid-template-rows: repeat(2, 1fr);
-
+  grid-template-rows: repeat(2, 330px);
+  grid-template: repeat(3,330px)/repeat(2,1fr);
   padding: 5%;
+  height: 660px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #025157;
 }
 
 .features .feature-item
@@ -547,4 +583,99 @@ font-weight: 400px;
   font-weight: 600;
   text-decoration: none;
   font-family: 'Alegreya', sans-serif;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  /*.navbar, .actions {
+    display: none;
+  }*/
+
+  main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  .banner
+  {
+    width: 100%;
+  }
+
+  .promocion
+  {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+.anunciox > form
+{
+  flex-direction: column;
+}
+
+.anunciox >form >input
+{
+  width: 90%;
+}
+
+.anunciox >form >button
+{
+  width: 92%;
+}
+
+
+  .videox > video
+  {
+    width: 100%;
+  }
+
+  .anunciox
+  {
+    margin-top: 10px;
+  }
+
+  .anunciox >h3
+  {
+  font-size: 25px;
+  line-height: 1.2;
+  }
+
+
+  .features 
+  {
+   grid-template: repeat(4,1fr)/1fr;
+   padding-left: 0;
+   padding-right: 0;
+  }
+
+  .feature-image
+  {
+    display: none;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) 
+{
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) 
+{
+
 }
